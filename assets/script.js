@@ -33,8 +33,8 @@ async function checkWeather(city) {
         weatherIcon.src = 'assets/images/drizzle.png';
       }
 
-      document.querySelector.weather('.weather').style.display = 'block';
-      document.querySelector.weather('.error').style.display = 'none';
+      document.querySelector('.weather').style.display = 'block';
+      document.querySelector('.error').style.display = 'none';
     }
 
 }
