@@ -185,3 +185,31 @@ body {
     margin-top: 0;
   }
 }
+
+/* max-height: 640px */
+
+@media (max-height: 640px) {
+  .card {
+    max-width: 55rem;
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+  }
+  .weather {
+    display: inline-block;
+  }
+  .weather-icon {
+    transform: translateX(-12.75rem);
+  }
+  .weather h1,
+  .weather h2 {
+    transform: translateY(-10rem);
+  }
+  .details {
+    margin-top: -3rem;
+    gap: 2rem;
+  }
+  .col {
+    gap: 2rem;
+  }
+}
