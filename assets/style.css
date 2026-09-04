@@ -56,3 +56,19 @@ body {
 .search button img {
   width: 2.05rem;
 }
+
+.weather-icon {
+  width: 10.625rem;
+  margin-top: 3.875rem;
+}
+
+.weather h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 2.75rem;
+  font-weight: 400;
+  margin-top: -0.625rem;
+}
