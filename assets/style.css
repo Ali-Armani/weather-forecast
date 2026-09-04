@@ -108,3 +108,51 @@ body {
   margin-top: 0.625rem;
   font-size: 0.875rem;
 }
+
+/*====================================================================
+
+                            Media Queries
+
+====================================================================*/
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 20rem;
+    margin: 0.5rem auto 0;
+    border-radius: 2rem;
+  }
+  .search input {
+    max-width: 11.5rem;
+    padding: 0.5rem;
+  }
+  .search button {
+    height: 2.75rem;
+    width: 2.75rem;
+  }
+  .search button img {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  .weather-icon {
+    width: 7rem;
+    margin-top: 1rem;
+  }
+  .weather h2 {
+    margin-top: -0.75rem;
+  }
+  .details {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  .details p {
+    transform: translateY(-2rem);
+  }
+  .col img {
+    width: 2.25rem;
+  }
+  .humidity,
+  .wind {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+}
